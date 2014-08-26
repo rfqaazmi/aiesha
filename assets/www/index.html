@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+   <title>tittle</title>
+  
+   <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+        navigator.splashscreen.hide();
+        
+    }
+
+    </script>
+  <body onLoad="onLoad()">
+   <script>
+     window.location='main.html';
+   </script>
+  </body>
+</html>

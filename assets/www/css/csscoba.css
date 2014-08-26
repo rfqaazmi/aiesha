@@ -1,0 +1,16 @@
+@media all and (min-width:50px)
+{ .isi {font-size:0.1em;}}
+@media all and (min-width:100px)
+{ .isi{font-size:0.2em;}}
+@media all and (min-width:200px)
+{ .isi{font-size:0.4em;}}
+@media all and (min-width:300px)
+{ .isi{font-size:0.6em;}}
+@media all and (min-width:400px)
+{ .isi {font-size:0.8em;}}
+
+.isi{
+  min-height:130px;
+  height:auto;
+  margin:30px;
+}
